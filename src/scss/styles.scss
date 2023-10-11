@@ -27,7 +27,7 @@ $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/variables-dark";
 
-// $theme-colors: map-remove($theme-colors, "info", "light", "dark", "warning");
+$theme-colors: map-remove($theme-colors, "success", "danger", "info", "dark", "warning");
 
 @import "bootstrap/scss/maps";
 @import "bootstrap/scss/mixins";
