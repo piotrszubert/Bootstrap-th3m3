@@ -1,0 +1,24 @@
+.hero {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    background-image:
+    linear-gradient(
+        to bottom,
+        transparent 99%,
+        $light 100%),
+    linear-gradient(
+        to right, 
+        transparent 99%,
+        $light 100%);
+
+    background-size:
+    65px 65px,
+    65px 65px;
+    overflow: hidden;
+    
+    .hero-content {
+        max-width: 50rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
