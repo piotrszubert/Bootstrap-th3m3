@@ -76,6 +76,4 @@ $theme-colors: map-remove($theme-colors, "success", "danger", "info", "dark", "w
 // Custom styles
 //
 
-body {
-  padding: 1.5rem;
-}
+@import './hero.scss';
