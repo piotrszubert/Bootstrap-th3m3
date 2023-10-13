@@ -11,6 +11,11 @@ $primary: #6366f1;
 $secondary: #C0C0C0;
 $light: #34323f;
 
+
+.light-gradient {
+    background: linear-gradient(to left, $body-bg-dark 30%, $light);
+}
+
 // cards
 $card-border-width: 2px;
 
@@ -32,3 +37,7 @@ $btn-padding-y: .8rem;
     }
 }
 
+// cards 
+$card-border-radius: 2rem;
+$card-border-width:  1px;
+$card-border-color: $light;
