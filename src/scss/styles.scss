@@ -77,3 +77,11 @@ $theme-colors: map-remove($theme-colors, "success", "danger", "info", "dark", "w
 //
 
 @import './hero.scss';
+
+.text-body-secondary {
+    color: #9490a7 !important;
+}
+
+.theme-container {
+    max-width: 50rem;
+}
