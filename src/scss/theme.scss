@@ -1,6 +1,6 @@
 // font-family: 'DM Sans', sans-serif;
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-$font-family-base: 'Inter', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
+$font-family-base: 'Dm Sans', sans-serif;
 
 // body
 $body-color-dark: #fff;
@@ -11,6 +11,11 @@ $primary: #6366f1;
 $secondary: #C0C0C0;
 $light: #34323f;
 
+
+.light-gradient {
+    background: linear-gradient(to left bottom, $body-bg-dark 30%, $light);
+}
+
 // cards
 $card-border-width: 2px;
 
@@ -19,9 +24,9 @@ $card-border-width: 2px;
 
 // $btn-border-width: 0;
 $btn-font-size: .875rem;
-$btn-font-weight: 500;
-$btn-padding-x: 1.5rem;
-$btn-padding-y: 1rem;
+$btn-font-weight: 600;
+$btn-padding-x: 1.2rem;
+$btn-padding-y: .8rem;
 
 .card-img-overlay.custom {
     background-color: rgb(0 0 0 / .85); 
@@ -32,3 +37,7 @@ $btn-padding-y: 1rem;
     }
 }
 
+// cards 
+$card-border-radius: 2rem;
+$card-border-width:  1px;
+$card-border-color: $light;

@@ -4,16 +4,16 @@
     background-image:
     linear-gradient(
         to bottom,
-        transparent 99%,
+        transparent 98%,
         $light 100%),
     linear-gradient(
         to right, 
-        transparent 99%,
+        transparent 98%,
         $light 100%);
 
     background-size:
-    65px 65px,
-    65px 65px;
+    30px 30px,
+    30px 30px;
     overflow: hidden;
     
     .hero-content {
