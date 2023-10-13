@@ -13,7 +13,7 @@ $light: #34323f;
 
 
 .light-gradient {
-    background: linear-gradient(to left, $body-bg-dark 30%, $light);
+    background: linear-gradient(to left bottom, $body-bg-dark 30%, $light);
 }
 
 // cards
