@@ -84,5 +84,8 @@ $theme-colors: map-remove($theme-colors, "success", "danger", "info", "dark", "w
 }
 
 .theme-container {
-    max-width: 55rem;
+    @include make-container();
+    max-width: 55rem; 
+    padding-left: .75rem; 
+    padding-right: .75rem; 
 }
