@@ -16,6 +16,11 @@ $light: #34323f;
     background: linear-gradient(to left bottom, $body-bg-dark 30%, $light);
 }
 
+.primary-gradient {
+    // background: linear-gradient(to left bottom, $body-bg-dark 30%, $light);
+    background: linear-gradient(to left bottom, #6366f1 15%, $body-bg-dark);
+}
+
 // cards
 $card-border-width: 2px;
 
